@@ -123,6 +123,7 @@ class PaintFrame extends JFrame {
      */
     private void addShapes() {
         addPrimitive(new Pencil(), "\u270E");
+        addPrimitive(new Diamond(), "\u2666");
         //addPrimitive(new Line(), new ImageIcon(getClass().getResource("pics/line.gif")));
         addPrimitive(new Line(), "\u2572");
         addPrimitive(new Rect(), "\u25A2");
